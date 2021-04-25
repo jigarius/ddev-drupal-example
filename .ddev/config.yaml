@@ -1,7 +1,7 @@
 name: ddev-drupal
 type: drupal8
 docroot: web
-php_version: "7.2"
+php_version: "8.0"
 webserver_type: nginx-fpm
 router_http_port: "9980"
 router_https_port: "9943"
@@ -13,7 +13,7 @@ additional_fqdns:
 mariadb_version: "10.2"
 mysql_version: ""
 use_dns_when_possible: true
-composer_version: "1"
+composer_version: "2"
 web_environment: []
 
 
@@ -160,7 +160,7 @@ web_environment: []
 # In this case the user must provide all such settings.
 
 # You can inject environment variables into the web container with:
-# web_environment: 
+# web_environment:
 # - SOMEENV=somevalue
 # - SOMEOTHERENV=someothervalue
 
@@ -171,7 +171,7 @@ web_environment: []
 # For advanced users only!
 
 # provider: default # Currently "default", "pantheon", "ddev-live"
-# 
+#
 # Many ddev commands can be extended to run tasks before or after the
 # ddev command is executed, for example "post-start", "post-import-db",
 # "pre-composer", "post-composer"
