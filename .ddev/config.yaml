@@ -10,7 +10,7 @@ additional_hostnames:
 - example
 additional_fqdns:
 - dev.example.com
-mariadb_version: "10.2"
+mariadb_version: "10.5"
 mysql_version: ""
 use_dns_when_possible: true
 composer_version: "2"
