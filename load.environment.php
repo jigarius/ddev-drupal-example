@@ -5,6 +5,11 @@
  * https://getcomposer.org/doc/04-schema.md#files
  */
 
+// If the library is not installed, do nothing.
+if (!class_exists('Dotenv\Dotenv', TRUE)) {
+  return;
+}
+
 use Dotenv\Dotenv;
 use Dotenv\Exception\InvalidPathException;
 
