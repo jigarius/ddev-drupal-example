@@ -1,5 +1,5 @@
 {
-    "name": "drupal-composer/drupal-project",
+    "name": "jigarius/ddev-drupal-example",
     "description": "Demo of using Ddev with Drupal.",
     "type": "project",
     "license": "GPL-2.0-or-later",
